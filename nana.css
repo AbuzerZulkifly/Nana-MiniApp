@@ -1,0 +1,43 @@
+.coupon, .promo{
+    position: relative;
+}
+.inverted-border-coupon{
+    position: absolute;
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%   ;
+    top: 32%;
+    left: -1%
+    ;
+}
+
+.inverted-border-coupon-right{
+    position: absolute;
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%   ;
+    top: 32%;
+    right: -1%
+    ;
+}
+
+.inverted-border-promo{
+    position: absolute;
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    right: -10%;
+}
+
+.inverted-border-promo-down{
+    position: absolute;
+    background-color: white;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    right: -10%;
+    bottom: -1%;
+}
